@@ -9,6 +9,7 @@ public class CreatePhoneNumber {
     public static String createPhoneNumber(int[] numbers) {
 
         String phoneNumber = ("(xxx) xxx-xxxx");
+        String test = "123";
 
         for (int i : numbers){
             phoneNumber = phoneNumber.replaceFirst("x", Integer.toString(i));
